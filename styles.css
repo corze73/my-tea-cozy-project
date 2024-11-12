@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+a {
+    color: seashell;
+}
+
+
+/* Header Section */
+
+.header-container {
+    display: flex;
+    position: fixed;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    height: 69px;
+    width: 100%;
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    z-index: 100;
+}
+
+.header-container img {
+    height: 50px;
+    padding-left: 10px;
+}
+
+.header-container nav {
+    text-align: right;
+    padding-right: 10px;
+    flex-grow: 1;
+}
+
+.header-container nav span {
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+/* Mission Section */
+
+.mission-container {
+    position: relative;
+    padding-top: 70px;
+    height: 700px;
+    background-image: url(/images/img-mission-background.webp);
+    width: 1200px;
+    align-content: center;
+    margin: auto;
+}
+
+.mission-content {
+    background-color: black;
+}
+
+#tea-of-the-month h2,
+#tea-of-the-month h4 {
+    margin-bottom: 20px;
+}
+
+#featured-teas {
+    display: flex;
+    width: 1000px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.tea-container {
+    margin-right: 30px;
+    margin-bottom: 5px; 
+}
+
+.tea-container img {
+    height: 200px;
+    width: 300px;
+}
+
+#locations {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    height: 570px;
+    background-image: url(/images/img-locations-background.webp);
+    background-size: cover;
+    width: 1200px;
+    align-content: center;
+    margin: 0 auto;
+    top: 70px;
+}
+
+#locations-section h2 {
+    padding-top: 10px;
+}
+
+#locations-container {
+    display: inline-flex;
+    justify-content: center;
+}
+
+#store-locations {
+    width: 250px;
+    background-color: black;
+    margin-right: 40px;
+    padding: 5px 0;
+    line-height: 1.2;
+    opacity: 1;
+}
+
+#contact-section {
+    height: 200px;
+    padding-top: 70px;
+}
+
+#copyright-section {
+    text-align: left;
+    padding-left: 20px;
+}
