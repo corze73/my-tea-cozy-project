@@ -48,7 +48,7 @@ a {
     position: relative;
     padding-top: 70px;
     height: 700px;
-    background-image: url(/images/img-mission-background.webp);
+    background-image: url(img-mission-background.webp);
     width: 1200px;
     align-content: center;
     margin: auto;
@@ -87,7 +87,7 @@ a {
     justify-content: center;
     position: relative;
     height: 570px;
-    background-image: url(/images/img-locations-background.webp);
+    background-image: url(img-locations-background.webp);
     background-size: cover;
     width: 1200px;
     align-content: center;
